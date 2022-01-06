@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body h1 {
+    color: #282f59;
+}
+
+body p {
+    color: firebrick;
+    margin-bottom: 20px;
+}
+
+body a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header {
+    background-image: url("header.png");
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 88%;
+    padding: 10px 80px;
+    align-items: center;
+}
+
+.navbar ul {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.header-content,
+.crafts-img {
+    flex-basis: 50%;
+    padding: 4rem;
+}
+
+.header-content h1 {
+    margin-bottom: 30px;
+}
+
+.services-content h1 {
+    font-size: 3vmin;
+    margin-right: 80px;
+    margin-left: 110px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.banner-img {
+    width: 50px;
+    margin-right: 50px;
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+
+.products h1 {
+    font-size: 4vmin;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.products-img {
+    display: inline-block;
+    margin-left: 350px;
+    margin-bottom: 40px;
+}
+
+.contacts h1 {
+    font-size: 4vmin;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.contacts p {
+    margin-bottom: 10px;
+    text-align: center;
+}
